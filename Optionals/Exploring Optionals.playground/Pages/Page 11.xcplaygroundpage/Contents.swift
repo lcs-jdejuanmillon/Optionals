@@ -10,7 +10,11 @@
  ![kc2](kc2.png)
  
  */
+// It will not compile
 // Type the code below this line...
+var x: Int?
+var y: Int?
 
+x * y
 
 //: [Next](@next)

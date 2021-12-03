@@ -16,8 +16,8 @@
  What is the result?
  */
 // Type the code below this line
-
-
+//var myName: String
+//print(myName)
 /*:
  
  The debug area appeared at the bottom of your playground.
@@ -38,8 +38,8 @@
  
  */
 // Type the second code example below...
-
-
+var yourName: String?
+print(yourName)
 /*:
  
  Run the playground again.
@@ -56,3 +56,4 @@
  
  */
 //: [Next](@next)
+// There was no error, and the output was "nil"

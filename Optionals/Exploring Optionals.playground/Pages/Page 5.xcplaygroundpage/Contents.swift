@@ -19,8 +19,12 @@
  
  */
 // Type the code below this line...
-
-
+var dayOfWeek: String? = "Monday"
+if dayOfWeek != nil {
+    print("The day is \(dayOfWeek)")
+} else {
+    print("No day was provided")
+}
 /*:
  
  Now change line 22 to look like this:
@@ -33,3 +37,5 @@
  
  */
 //: [Next](@next)
+// The first output was "No day was provided", meaning that the compiler recognized that dayOfWeek was equal to nil, which was what I expected.
+// The second output was "The day is Optional("Monday")", whichi is not what I expected. I thought that instead of saying the day of the week between quotation marks and parenthesis after Optional, it would just be the text. I expected "The day is Monday".
